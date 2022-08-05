@@ -1,14 +1,12 @@
 class Treino {
-	public static void main(String[] args) {
-		int a = 6;
-		int g = a++;
-			System.out.println(g);
-		int y = 6;	
-		int x = ++y;
-			System.out.println(x);
-				System.out.println(a);
+	public static void main (String[] args) {
+		int i;
+			for (i = 1; i <= 10; i++) {
+				if (i % 2 == 0) {
+					System.out.println(i);
+				}
+			}
 	}
-
 }
 
 /* O objetivo é que todo dia eu treine aqui qualquer coisa que eu precisar treinar;
