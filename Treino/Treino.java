@@ -1,11 +1,16 @@
 class Treino {
-	public static void main (String[] args) {
-		int i;
-			for (i = 1; i <= 10; i++) {
-				if (i % 2 == 0) {
-					System.out.println(i);
-				}
-			}
+	public static void main(String[] args) {
+		
+		int y = 2;
+		int x = 1 + y;
+		int z = x;
+		
+			for (x = z; y <= 5; y++) {
+				
+				System.out.println(z);
+					
+			} 
+		
 	}
 }
 
