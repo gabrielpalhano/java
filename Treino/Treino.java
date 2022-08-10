@@ -1,13 +1,14 @@
 class Treino {
 	public static void main(String[] args) {
-		
-		for (int i = 1; i < 100; i++) {
-			if (i % 19 == 0) {
-				System.out.println("Achei um número divisivel por 19! \n"+i);
-				//break;
-			}
+	int x = 1;
+	int y = 2;
+	int z;	
+		while (y <= 5) {
+			z = x + y;
+			System.out.println(z);
+			y += 1;
+			x = z;
 		}
-		
 	}
 }
 
