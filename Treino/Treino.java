@@ -1,10 +1,19 @@
 class Treino {
 	public static void main(String[] args) {
-	int i;	
-		//System.out.println("Aqui estão os algarismos compreendidos entre 150 e 300!!");
-			for (i = 150; i <= 300; i++) {
-				//System.out.println(i);
-			} System.out.println(i);
+		int t;
+		int c;
+			for (t = 0, c = 1; c <= 1000; t += c, c++) {
+				//System.out.println(t);
+			} System.out.println(t);
+		
+		
+		/* int t = 0;
+		int c = 1;
+			while (c <= 1000) {
+				t += c;
+				c++;
+					//System.out.println(t);
+			} System.out.println(t); */
 	}
 }
 
