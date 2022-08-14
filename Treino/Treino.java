@@ -1,17 +1,20 @@
 class Treino {
 	public static void main(String[] args) {
-	int mt = 1;
-		while (mt <= 100) {
-			if (mt % 3 == 0) {
-				System.out.println(mt);
-			} mt++;
-		}
+		double f;
+		double c;
+			for (f = 1, c = 1; c <= 30; c++, f *= (c - 1)) {
+					//System.out.println(f);
+			} System.out.println(f);
 		
-		/* for (int i = 1; i <= 100; i++) {
-			if (i % 3 == 0) {
-				System.out.println(i);
-			}
-		} */
+		
+		
+		/* int f = 1;
+		int c = 1;
+			while (c <= 10) {
+				c++;
+				f *= (c - 1);
+					//System.out.println(f);
+			} System.out.println(f); */
 	}
 }
 

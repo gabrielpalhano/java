@@ -1,14 +1,15 @@
 class ExercicioTres {
 	public static void main (String[] args) {
 		//(SOLUÇÃO FOR)
-	long f = 1;	
-		for (long c = 1; c <= 30; c++, f *= (c - 1)) {
+	double f = 1;	
+		for (double c = 1; c <= 30; c++, f *= (c - 1)) {
 			/*System.out.println(f);*/
 		}
 	System.out.println(f);	
 		
 		//(SOLUÇÃO WHILE)	
-	/*long f = 1; 
+		
+ /*	long f = 1; 
 	long c = 1;
 		while (c <= 10) {
 			c++;
