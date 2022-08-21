@@ -1,16 +1,12 @@
 class Treino {
 	public static void main(String[] args) {
-		int x;
-		int y;
-		int z;
-			for(x = 0, y = 1; x <= 50; x += y) {
+		int f = 1;
+		int c = 1;
+			for(; c <= 10; c++, f *= (c - 1)) {
 				
-				z = x + y;
-				y = z;
-						System.out.println(z); 
-					
-				}
+			}System.out.println(f);
 	}
+	
 }
 
 
