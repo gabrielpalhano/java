@@ -1,12 +1,12 @@
 class Treino {
 	public static void main(String[] args) {
-		int f = 1;
-		int c = 1;
-			for(; c <= 10; c++, f *= (c - 1)) {
-				
-			}System.out.println(f);
+		int ab = 2022;
+			if((ab % 4 == 0 && ab % 100 != 0) || (ab % 400 == 0)) {
+				System.out.println(ab+" É ano bissexto");
+			}else{
+				System.out.println(ab+" Não é ano bissexto!");
+			}
 	}
-	
 }
 
 
