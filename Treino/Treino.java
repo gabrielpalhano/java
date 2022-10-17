@@ -1,14 +1,14 @@
 class Treino {
 	
 	public static void main (String[] args) {
-		float jan = 15000;
-		float fev = 23000;
-		float mar = 17000;
+		int idade = 15;
+		boolean amgDoDono = true;
 		
-			float t = jan + fev + mar;
-			float m = t / 3;
-				
-				System.out.println("A soma total das dispesas é de: R$ " +t+ "\nA média mensal de gastos é de: R$ " +m );
+			if(idade >= 18 || amgDoDono == true) {
+				System.out.println("Pode entrar!");
+			} else {
+				System.out.println("Não pode entrar!");
+			}
 	}
 }
 
