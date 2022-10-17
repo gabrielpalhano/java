@@ -1,10 +1,20 @@
 class Treino {
-	public static void main(String[] args) {
-		int t = 1;
-			for(int c = 1; c <= 10; c++, t *= (c - 1)) {
-				System.out.println(t);
-			}
-			
+	
+	public static void main (String[] args) {
+		int i;
+		int c;
+		
+			 for(i = 0, c = 1; c <= 1000; i += c, c++) {
+				//System.out.println(i);
+			} System.out.println(i); 
+	
+	/* i = 0;
+	c = 1;
+		while(c <= 1000) {
+			i += c;
+			c++;
+				//System.out.println(i);
+		} System.out.println(i); */
 	}
 }
 
