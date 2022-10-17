@@ -1,20 +1,14 @@
 class Treino {
 	
 	public static void main (String[] args) {
-		int i;
-		int c;
+		float jan = 15000;
+		float fev = 23000;
+		float mar = 17000;
 		
-			 for(i = 0, c = 1; c <= 1000; i += c, c++) {
-				//System.out.println(i);
-			} System.out.println(i); 
-	
-	/* i = 0;
-	c = 1;
-		while(c <= 1000) {
-			i += c;
-			c++;
-				//System.out.println(i);
-		} System.out.println(i); */
+			float t = jan + fev + mar;
+			float m = t / 3;
+				
+				System.out.println("A soma total das dispesas é de: R$ " +t+ "\nA média mensal de gastos é de: R$ " +m );
 	}
 }
 
